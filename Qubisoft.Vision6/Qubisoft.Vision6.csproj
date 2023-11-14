@@ -4,18 +4,22 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-	<VersionPrefix>1.1.0</VersionPrefix>
+	<VersionPrefix>1.1.1</VersionPrefix>
 	<PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
-	<PackageLicenseExpression>MIT</PackageLicenseExpression>
 	<Copyright>© 2023 Qubisoft Pty Ltd</Copyright>
 	<Authors>Qubisoft Pty Ltd</Authors>
 	<PackageProjectUrl>https://www.qubisoft.com.au</PackageProjectUrl>
 	<RepositoryUrl>https://github.com/Qubisoft-Pty-Ltd/Qubisoft.Vision6</RepositoryUrl>
 	<PackageReadmeFile>README.md</PackageReadmeFile>
 	<Description>.NET 6 client library for the Vision 6 REST API</Description>
+	<PackageLicenseFile>LICENSE</PackageLicenseFile>
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
     <None Include="..\README.md">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
