@@ -5,6 +5,8 @@ VisualStudioVersion = 17.6.33717.318
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Qubisoft.Vision6", "Qubisoft.Vision6\Qubisoft.Vision6.csproj", "{F1839B67-C274-4B8E-AF89-E774572B7A47}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Qubisoft.Vision6.Test", "Qubisoft.Vision6.Test\Qubisoft.Vision6.Test.csproj", "{21FBE779-DA1C-4C0C-B734-8E81796F19CF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{F1839B67-C274-4B8E-AF89-E774572B7A47}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F1839B67-C274-4B8E-AF89-E774572B7A47}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F1839B67-C274-4B8E-AF89-E774572B7A47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21FBE779-DA1C-4C0C-B734-8E81796F19CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21FBE779-DA1C-4C0C-B734-8E81796F19CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21FBE779-DA1C-4C0C-B734-8E81796F19CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21FBE779-DA1C-4C0C-B734-8E81796F19CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
